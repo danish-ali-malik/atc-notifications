@@ -1,0 +1,33 @@
+# Ignore Composer's vendor directory and files
+/vendor/
+/composer.lock
+
+# Ignore npm's node modules directory and files
+/node_modules/
+/package-lock.json
+
+# Ignore specific system files
+.DS_Store
+Thumbs.db
+
+# Ignore configuration files that may contain sensitive information
+wp-config.php
+.env
+
+# Ignore any local log files
+*.log
+
+# Ignore editor/IDE specific files
+/.vscode/
+/.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore OS generated files
+._*
+.Spotlight-V100
+.Trashes
+
+# Ignore other files that are generated during runtime or are personal
+/.phpcs.cache
+/sass-cache/
